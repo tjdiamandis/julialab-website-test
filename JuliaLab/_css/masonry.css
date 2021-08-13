@@ -94,6 +94,7 @@ a {
 /* Gutterless masonry */
 .masonry.gutterless {
   column-gap: 0;
+  background-color: #d8e2e1;
 }
 
 .masonry.gutterless .brick {
@@ -118,6 +119,6 @@ a {
   }
 
   .masonry {
-    column-count: 12;
+    column-count: 6;
   }
 }

@@ -318,6 +318,7 @@ code {
 .code-output {
   background: var(--output-background);
   border: 1px dashed #dbdbdb;
+  background-color: #d8e2e1;
 }
 
 /* ==================================================================
