@@ -99,7 +99,9 @@ header li a:hover {
 @media (min-width: 940px) {
   header {
     /*width: 705px;*/
-    width: 1300px;
+    /*width: 1300px;*/
+    width: 100%;
+
     height: 93px;
     margin-left: auto;
     margin-right: auto;

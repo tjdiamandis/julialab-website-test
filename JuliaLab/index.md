@@ -3,81 +3,91 @@
 
 
 ~~~
-<div class="masonry gutterless">
-      <div class="brick">
-        <img src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-      <div class="brick">
-        <img  src="/assets/people/corgi.jpeg" alt="Corgi" title="Corgi">
-      </div>
-</div>
+				<div id="ri-grid" class="ri-grid ri-grid-size-1 ri-shadow">
+					<img class="ri-loading-image" src="images/loading.gif"/>
+					<ul>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+						<li><a href="#"><img src="/assets//people/corgi.jpeg"/></a></li>
+					</ul>
+				</div>
+				
+
+				
+
+			
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.gridrotator.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				$( '#ri-grid' ).gridrotator( {
+					w320 : {
+						rows : 4,
+						columns : 6
+					},
+					w240 : {
+						rows : 4,
+						columns : 4
+					},
+					nochange : [],
+					preventClick : false
+				} );
+			
+			});
+		</script>
 ~~~
+
 
 
 
@@ -99,45 +109,6 @@
 <!--```-->
 <!--\show{people.jl}-->
 
-
-
-<!--~~~-->
-<!--<div class="masonry gutterless">-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--      <div class="brick">-->
-<!--        <img  src="/assets/people/Alan_Edelman" alt="Alan Edelman" title="Alan Edelman">-->
-<!--      </div>-->
-<!--</div>-->
-<!--~~~-->
-
-<!--~~~-->
-<!--<center>-->
-<!--<iframe width="426" height="240" src="https://www.youtube.com/embed/qGW0GT1rCvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-<!--<iframe width="426" height="240" src="https://www.youtube.com/embed/tQpqsmwlfY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-<!--<iframe width="426" height="240" src="https://www.youtube.com/embed/XRJ-rtP2fVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-<!--<iframe width="426" height="240" src="https://www.youtube.com/embed/tQpqsmwlfY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-<!--</center>-->
-<!--~~~-->
 
 
 ~~~
