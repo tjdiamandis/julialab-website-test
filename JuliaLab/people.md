@@ -13,6 +13,23 @@
 <!--println("</div>") #hide-->
 <!--```-->
 
+<!--```julia:people.jl-->
+<!--#hideall-->
+<!--using CSV, DataFrames-->
+<!--println("<div id=\"ri-grid\" class=\"ri-grid ri-grid-size-1 ri-shadow\">") -->
+<!--println("<img class=\"ri-loading-image\" src=\"images/loading.gif\"/>") -->
+<!--println("<ul>") -->
+<!--people = CSV.read("./_assets/people.csv", DataFrame) -->
+<!--for p in eachrow(people) -->
+<!--    if p.Role !== missing && p.Role == "Current Member" -->
+<!--        img_name = replace(p.Name, r" " => s"_") -->
+<!--        println("<li><a href=\"#\"><img src=\"./assets/people/$(img_name)\"/></a></li>") -->
+<!--    end -->
+<!--end -->
+<!--println("</ul>") -->
+<!--println("</div>") -->
+<!--```-->
+<!--\output{people.jl}-->
 
 ~~~
 <div class="masonry gutterless">
