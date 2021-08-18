@@ -244,9 +244,9 @@ td {
 
 .franklin-content img {
   /*width: 70%;*/
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
-  padding-left: 10%;
+  /*padding-left: 10%;*/
 }
 
 .franklin-content .img-small img {
@@ -340,4 +340,34 @@ code {
 }
 
 
+.css-selector {
+    background: linear-gradient(182deg, #ffffff, #bccee6);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 47s ease infinite;
+    -moz-animation: AnimationName 47s ease infinite;
+    -o-animation: AnimationName 47s ease infinite;
+    animation: AnimationName 47s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
 
