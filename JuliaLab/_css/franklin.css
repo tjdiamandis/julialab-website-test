@@ -339,35 +339,3 @@ code {
   border-left: 5px solid #4c9cf1;
 }
 
-
-.css-selector {
-    background: linear-gradient(182deg, #ffffff, #bccee6);
-    background-size: 400% 400%;
-
-    -webkit-animation: AnimationName 47s ease infinite;
-    -moz-animation: AnimationName 47s ease infinite;
-    -o-animation: AnimationName 47s ease infinite;
-    animation: AnimationName 47s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-

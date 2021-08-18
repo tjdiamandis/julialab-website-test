@@ -21,6 +21,23 @@ website_url   = "https://julia.mit.edu/"
 
 # People
 people = readdlm("_assets/people.csv", ',', skipstart=1)
+
+# Current members and collaborators
+current_members = []
+collaborators = []
+for (Name,Position,Website,Role,Notes,Photo) in eachrow(people)
+    if Photo == "Yes"
+        path = replace(Name, r" " => s"_")
+        if Role == "Current Member"
+            push!(current_members, path)
+        else
+            push!(collaborators, path)
+        end
+    end
+end
+
+
+# Photo paths
 people_photos = []
 for (Name,Position,Website,Role,Notes,Photo) in eachrow(people[shuffle(1:end), :])
     if Photo == "Yes"
