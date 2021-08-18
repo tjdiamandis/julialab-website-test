@@ -225,8 +225,13 @@ table tbody tr td {
 .people {
   height:150px;
   width:150px;
+  margin-bottom: 40px;
   color: #283834;
   float:left;
+}
+
+.people a{
+  color: #283834;
 }
 
 .circle {

@@ -24,18 +24,21 @@ people = readdlm("_assets/people.csv", ',', skipstart=1)
 
 # Current members and collaborators
 current_members = []
+alumni = []
 collaborators = []
-for (Name,Position,Website,Role,Notes,Photo) in eachrow(people)
-    if Photo == "Yes"
-        path = replace(Name, r" " => s"_")
-        if Role == "Current Member"
-            push!(current_members, path)
-        else
-            push!(collaborators, path)
-        end
-    end
-end
+for (name,position,website,role,notes,photo) in eachrow(people)
 
+        photo_path = replace(name, r" " => s"_")
+        data = [name, position, website, photo_path]
+        if role == "Current Member"
+            push!(current_members, data)
+        elseif role == "Alumni"
+            push!(alumni, data)
+        else
+            push!(collaborators, data)
+        end
+
+end
 
 # Photo paths
 people_photos = []
