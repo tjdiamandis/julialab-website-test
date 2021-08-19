@@ -4,7 +4,7 @@
 
 ~~~
 <div id="ri-grid" class="ri-grid ri-grid-size-1 ri-shadow">
-    <img class="ri-loading-image" src="images/loading.gif"/>
+    <img class="ri-loading-image" src="/assets/images/loading.gif"/>
     <ul>
         {{for name in people_photos}}
           <li><a href="#"><img src="/assets/people/{{name}}"/></a></li>
@@ -44,9 +44,9 @@
 
 ~~~
 <center>
-<img  width="200" src="/assets/mit-logo.svg" />
-<img  width="200" src="/assets/csail-logo.png" />
-<img  width="200" src="/assets/mit-math-logo.png" />
+<img  width="200" src="/assets/images/mit-logo.svg" />
+<img  width="200" src="/assets/images/csail-logo.png" />
+<img  width="200" src="/assets/images/mit-math-logo.png" />
 </center>
 ~~~
 
