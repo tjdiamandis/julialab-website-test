@@ -1,4 +1,4 @@
-Sitemap: https://julia.mit.edu/sitemap.xml
+Sitemap: https://www.emmanuellujan.com/sitemap.xml
 
 User-agent: *
 Disallow:
